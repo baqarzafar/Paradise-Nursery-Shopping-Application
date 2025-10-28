@@ -7,11 +7,127 @@
     background-image:url('../assests/tree.jpg' ) ;
     background-size: 100%;
     
-
+ 
     background-blend-mode:hard-light;
 
 }
 
 .HeaderR{
     background-image:url('../assests/leave.avif');
+}
+
+@media screen and (min-width:800px){
+    .PointH{
+    
+
+      font-Size:3.5vh;
+}
+
+.PointG{
+
+    width:45% ; height:70vh  ;  color:white;
+}
+
+
+.PointA{
+
+
+    display:flex ; justify-Content:center;
+}
+/* .PointB{
+
+} */
+
+.PointC{
+width: 100%; display:flex ; flex-Wrap:wrap ; margin-top:10%;
+}
+.PointD{
+    width:50%
+
+}
+.PointE{
+width:80% ; padding:10% ; 
+}
+
+.PointF{
+    background-blend-mode:hard-light; width:100% ;background-Color:black ; color: white; font-Size:7vh ;font-Family:serif;
+    
+}
+
+
+
+.Pointf{
+    background-blend-mode:hard-light ; width: 90% ;background-Color:black ;  color: white ; font-Size: 4vh ;  font-Family: serif;
+}
+
+
+
+.Pointg{
+    color: white ; width: 100% ; display: flex ; justify-Content: center ; 
+}
+.Pointe{
+    width:20% ;
+}
+.Pointl{
+    background: none;color:white ; font-Size: 3.5vh; font-Weight:bold ; width: 20vh; background-color: palegreen; padding:1%;
+}
+
+
+}
+ 
+
+@media screen and (max-width:1000px){
+  
+.PointA{
+    display:flex ; justify-Content:center;
+
+}
+/* .PointB{
+
+} */
+
+.PointC{
+width: 100%; display:flex ; flex-Wrap:wrap ; margin-top:15%;
+}
+.PointD{
+        width:80%;
+       
+
+}
+.PointE{
+width:100% ; padding:10% ; 
+}
+.PointF{
+    background-blend-mode:hard-light; width:100% ;background-Color:black ; color: white; font-Size:4vh ;font-Family:serif;
+    
+}
+
+
+.Pointf{
+    background-blend-mode:hard-light ; width: 100% ;background-Color:black ;  color: white ; font-Size: 3vh ;  font-Family: serif;
+}
+
+   
+.Pointl{
+    background: none;color:white ; font-Size: 2.5vh; font-Weight:bold ; width: 20vh; background-color: palegreen; padding:1%; 
+
+  margin-top:10%;   
+}
+    
+.PointG{
+      padding:7%;
+      width:40vh;
+   
+    }
+.PointH{
+    font-size:2.5vh;
+    color: white;
+
+}
+
+.Pointe{
+    width:10% ;
+}
+   
+    
 }
