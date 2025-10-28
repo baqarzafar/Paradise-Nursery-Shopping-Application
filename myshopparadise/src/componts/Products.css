@@ -30,11 +30,11 @@ width: 100%;
 
 }
  .frame2{
-    width:80% ; display:flex ; flex-flow:wrap  ; box-sizing:content-box ; 
+    width:100% ; display:flex ; flex-flow:wrap  ; ; 
  }
 
  .frame3{
-    border:solid black ; width:250px ;  margin:1% ; padding: 5%  
+    border:solid black ; width:200px ;  margin:5% ; padding: 2% ; border: solid  green;
  }
 
     .frame4{

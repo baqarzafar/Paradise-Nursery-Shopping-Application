@@ -1,0 +1,14 @@
+.main{
+    border: solid  green;
+}
+
+@media  screen and (max-width:500px) {
+
+
+    .main{
+        display:flex;
+        width:500px;
+        color:green
+        
+    }
+}
