@@ -44,12 +44,13 @@ const remove = (id)=>{
                     </div>
                 )
             })}
-           </div>
-
-
+            
               <div>
                 <button style={{backgroundColor:"green"  , padding:"1%"}}>Continue shoping</button>
               </div>
+
+           </div>
+
 
         </div>
         </Provider>
