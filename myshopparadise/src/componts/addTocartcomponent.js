@@ -45,8 +45,8 @@ const remove = (id)=>{
                 )
             })}
             
-              <div>
-                <button style={{backgroundColor:"green"  , padding:"1%"}}>Continue shoping</button>
+              <div style={{display:"flex" , justifyContent:"center" , width:"100%"}}>
+                <button style={{  color:"white"   ,backgroundColor:"green"  , padding:"1%"}}>Continue shoping</button>
               </div>
 
            </div>
