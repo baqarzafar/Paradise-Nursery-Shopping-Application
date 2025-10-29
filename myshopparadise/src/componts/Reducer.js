@@ -4,7 +4,7 @@ import { createSlice , nanoid } from "@reduxjs/toolkit";
 
 export const slice1 = createSlice({
           name:"myslice1",
-          initialState: {display:"none"},
+          initialState: {display:"none" , stateofapplication:[]}, 
           reducers:{
             change:(state ,action)=>{
                  
@@ -12,10 +12,24 @@ export const slice1 = createSlice({
                 state.display =""
                 
              }
-          }
-          }
+},
+             addtocart:( state , action )=>{
+                state.stateofapplication.push(action.payload)
 
-})
-export default  slice1.actions.change
+             }
+,
+             removefromcart:(state , action)=>{
+            state.stateofapplication = state.stateofapplication.filter(
+        (data) => data.id !== action.payload
+      );
+
+             }
+          
+            }
+
+         })
+export  let addtocart   =  slice1.actions.addtocart 
+export  let removefromcart = slice1.actions.removefromcart
+export default slice1.actions.change
 
 export let myreducer = slice1.reducer

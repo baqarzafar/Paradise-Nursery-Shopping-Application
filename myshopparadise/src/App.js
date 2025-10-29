@@ -1,7 +1,10 @@
+
 import logo from './logo.svg';
 import './App.css';
 import Content from './componts/contents';
 import { useEffect } from 'react';
+import { BrowserRouter , Routes ,Route } from 'react-router-dom';
+import { ProductListing } from './componts/addTocartcomponent';
 
 function App() {
     
@@ -17,10 +20,23 @@ function App() {
     data()
   }   )
   return (
-    <div className="App" style={{width:"100%"}}>
-          <Content></Content>
+  
+ <BrowserRouter>
+  
+    <Routes>
+      <Route path='/' element={
+        <div className='App' style={{width:"100%"}}>
+        <Content/>
+           </div> 
+        
+        } ></Route>
 
-    </div>
+        <Route path='/Productlisting' element={<ProductListing/>} ></Route>
+        <Route path='/' element={<ProductListing/>} ></Route>
+    </Routes>
+ 
+ </BrowserRouter>
+   
   );
 }
 

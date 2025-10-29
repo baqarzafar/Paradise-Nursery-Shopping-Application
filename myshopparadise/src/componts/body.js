@@ -22,7 +22,14 @@ export default function Body(){
 
               todipatch(change("none"))
             
-              setDisplay(display)}
+              setDisplay(display)
+
+
+        
+
+         
+
+}
 
     return(
         <div className="skeleton" style={{ display:display1 ,width:"100%" }} >
